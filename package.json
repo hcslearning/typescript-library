@@ -1,17 +1,20 @@
 {
   "name": "typescript-library",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
-    "prepare": "tsc"
+    "build": "webpack",
+    "prepare": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.14.31",
-    "typescript": "^4.2.2"
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
   }
 }
