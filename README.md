@@ -1,5 +1,6 @@
 # typescript-library
 
-Usando solo Typescript se puede generar el código UMD compatible con Browsers y NodeJS. 
-La contra es que Typescript no minimiza el código.
+Librería Javascript usando Webpack y Typescript, la librería se genera en formato UMD compatible con Browsers y NodeJS. 
+
+Adicionalmente se agrega complejidad a la librería utilizando librería externa "numeral" y se realizan pruebas con Jest.
 
