@@ -2,7 +2,12 @@
   "name": "typescript-library",
   "version": "2.0.0",
   "description": "",
-  "main": "dist/main.js",
+  "main": "dist/TsLibrary.utilities.js",
+  "exports": {
+    ".": "dist/TsLibrary.utilities.js",
+    "./utilities": "dist/TsLibrary.utilities.js",
+    "./meta": "dist/TsLibrary.meta.js"
+  },
   "scripts": {
     "build": "webpack",
     "prepare": "webpack",
@@ -15,6 +20,7 @@
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.31",
     "@types/numeral": "^2.0.0",
+    "clean-webpack-plugin": "^3.0.0",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.2",
     "ts-loader": "^8.0.17",

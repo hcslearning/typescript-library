@@ -1,4 +1,4 @@
-import * as lib from '../src/index'
+import * as lib from '../src/utilities'
 
 test('multiplicar 3 por 4', () => {
     expect( lib.multiplicar(3,4) ).toBe(12)
