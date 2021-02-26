@@ -12,6 +12,7 @@ module.exports = {
         filename: 'TsLibrary.[name].js',
         library: ['TsLibrary', '[name]'],
         libraryTarget: 'umd',
+        umdNamedDefine: true,
         globalObject: 'this'
     },
     module: {

@@ -4,9 +4,9 @@
   "description": "",
   "main": "dist/TsLibrary.utilities.js",
   "exports": {
-    ".": "dist/TsLibrary.utilities.js",
-    "./utilities": "dist/TsLibrary.utilities.js",
-    "./meta": "dist/TsLibrary.meta.js"
+    ".": "./dist/TsLibrary.utilities.js",
+    "./utilities": "./dist/TsLibrary.utilities.js",
+    "./meta": "./dist/TsLibrary.meta.js"
   },
   "scripts": {
     "build": "webpack",
